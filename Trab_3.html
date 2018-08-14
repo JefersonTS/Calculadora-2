@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercícios JavaScript 2</title>
+    <link href="estilo.css" type="text/css" rel="stylesheet">
+    <script src="func.js" type="text/javascript"></script>
+</head>
+<body id="tudo">
+<div id="med">
+    <h1>Exercício 1 - Média Aritmética</h1>
+    <p>Nota 1: <label for="n1"></label><input type="number" id="n1"></p>
+    <p>Nota 2: <label for="n2"></label><input type="number" id="n2"></p>
+    <p>Nota 3: <label for="n3"></label><input type="number" id="n3"></p>
+    <p>Nota 4: <label for="n4"></label><input type="number" id="n4"></p>
+    <p><button onclick="calcula1()"> Calcular </button></p>
+    <p id="mensagem1"></p>
+</div>
+
+<div id="med2">
+    <h1>Exercício 2 - Média Aritmética 2</h1>
+    <p>Nota 1: <input type="number" id="nu1"></p>
+    <p>Nota 2: <input type="number" id="nu2"></p>
+    <p><button onclick="calcula2()"> Calcular </button></p>
+    <p id="mensagem2"></p>
+</div>
+
+<div id="nmenor">
+    <h1>Exercício 3 - Menor Número</h1>
+    <p>1º Número: <input type="number" id="num1"></p>
+    <p>2º Número: <input type="number" id="num2"></p>
+    <p><button onclick="calcula3()"> Calcular </button></p>
+    <p id="mensagem3"></p>
+</div>
+
+<div id="nmaior">
+    <h1>Exercício 4 - Maior Número</h1>
+    <p>1º Número: <input type="number" id="nume1"></p>
+    <p>2º Número: <input type="number" id="nume2"></p>
+    <p>3º Número: <input type="number" id="nume3"></p>
+    <p><button onclick="calcula4()"> Calcular </button></p>
+    <p id="mensagem4"></p>
+</div>
+
+<div id="oper">
+    <h1>Exercício 5 - Escolher a Operação</h1>
+    <p>1º Número: <input type="number" id="numer1"></p>
+    <p>2º Número: <input type="number" id="numer2"></p>
+    <p>1. Média entre os Números digitados</p>
+    <p>2. Diferença do maior pelo menor</p>
+    <p>3. Produto entre os Números digitados</p>
+    <p>4. Divisão do 1º pelo 2º</p>
+    <p>Digite a opção desejada: <input type="number" id="op" ></p>
+    <p><button onclick="calcula5()"> Calcular </button> </p>
+    <p id="mensagem5"></p>
+</div>
+
+<div id="oper2">
+    <h1>Exercício 6 - Escolher a Operação 2</h1>
+    <p>1º Número: <input type="number" id="numero1"></p>
+    <p>2º Número: <input type="number" id="numero2"></p>
+    <p>1. Primeiro número elevado ao segundo número, EX: 1º^2º</p>
+    <p>2. Raiz quadrada dos dois números</p>
+    <p>3. Raiz cúbida dos dois números</p>
+    <p>Digite a opção desejada: <input type="text" id="opc" ></p>
+    <p><button onclick="calcula6()"> Calcular </button> </p>
+    <p id="mensagem6"></p>
+    <p id="mensagem6_1"></p>
+</div>
+
+<div id="aumento">
+    <h1>Exercício 7 - Aumento de 30%</h1>
+    <p>Digite seu Salário: <input type="number" id="n_1"></p>
+    <p><button onclick="calcula7()">Calcular</button> </p>
+    <p id="mensagem7"></p>
+</div>
+
+<div id="reajuste">
+    <h1>Exercício 8 - Reajuste Salarial</h1>
+    <p>Digite seu Salário: <input type="number" id="n_2"></p>
+    <p><button onclick="calcula8()">Calcular</button> </p>
+    <p id="mensagem8"></p>
+</div>
+
+<div id="cespecial">
+    <h1>Exercicio 9 - Crédito Especial</h1>
+    <p>Digite seu Saldo: <input type="number" id="n_3"/></p>
+    <p><button onclick="calcula9()"> Calcular </button></p>
+    <p id="mensagem9"></p>
+</div>
+
+<div id="precocar">
+    <h1>Exercicio 10 - Preço do Carro</h1>
+    <p>Informe o Custo de Fabrica de seu veiculo: <input type="number" id="custo"/></p>
+    <p><button onclick="calcula10()"> Calcular </button></p>
+    <p id="mensagem10"></p>
+</div>
+
+<div id="nsalario">
+    <h1>Exercicio 11 - Aumento e Novo Salário</h1>
+    <p>Informe o seu Salário: <input type="number" id="salario"/></p>
+    <p><button onclick="calcula11()"> Calcular </button></p>
+    <p id="mensagem11"></p>
+</div>
+
+<div id="nsalario2">
+    <h1>Exercicio 12 - Gratificação Salarial</h1>
+    <p>Informe o teu Salário Bruto: <input type="number" id="salario1"/></p>
+    <p><button onclick="calcula12()"> Calcular </button></p>
+    <p id="mensagem12"></p>
+</div>
+
+<div id="preçonovo">
+    <h1>Exercicio 13 - Preço do Produto</h1>
+    <p>Informe o preço do produto: <input type="number" id="preco"/></p>
+    <p><button onclick="calcula13()"> Calcular </button></p>
+    <p id="mensagem13_1"></p>
+    <p id="mensagem13"></p>
+</div>
+
+<div id="nsalario3">
+    <h1>Exercicio 14 - Novo Salário 2</h1>
+    <p>Informe o teu salário: <input type="number" id="salario2"/></p>
+    <p><button onclick="calcula14()"> Calcular </button></p>
+    <p id="mensagem14"></p>
+</div>
+
+<div id="banco">
+    <h1>Exercicio 15 - Investimentos Bancários</h1>
+    <p>
+        Informe o seu tipo de investimento:<br/>
+        1 - Poupança<br/>
+        2 - Fundo de Renda Fixa<br/>
+        <input type="number" id="esc"/>
+    </p>
+
+    <p>Valor da aplicação: <input type="number" id="valor"/></p>
+    <p><button onclick="calcula15()"> Calcular</button></p>
+    <p id="mensagem15"></p>
+</div>
+
+<div id="novopreco">
+    <h1>Exercicio 16 - Preço e Desconto</h1>
+    <p>Preço do Produto: <input type="number" id="prec"/></p>
+    <p>Código do produto: <input type="number" id="cod"/></p>
+    <p><button onclick="calcula16()"> Calcular</button></p>
+    <p id="mensagem16"></p>
+    <p id="mensagem16_1"></p>
+</div>
+
+<div id="senha">
+    <h1>Exercicio 17 - Senha</h1>
+    <p>Digite a senha: <input type="number" id="senha1"/></p>
+    <p><button onclick="calcula17()"> Calcular</button></p>
+    <p id="mensagem17"></p>
+</div>
+
+<div id="idade">
+    <h1>Exercicio 18 - Maioridade</h1>
+    <p>Digite a senha: <input type="number" id="idad"/></p>
+    <p><button onclick="calcula18()"> Calcular</button></p>
+    <p id="mensagem18"></p>
+</div>
+
+<div id="imcorp">
+    <h1>Exercicio 19 - IMC</h1>
+    <p>Digite o seu sexo (Ex: Masc, Fem): <input type="text" id="sex"/></p>
+    <p>Digite a sua altura: <input type="number" id="alt"/></p>
+    <p><button onclick="calcula19()"> Calcular</button></p>
+    <p id="mensagem19"></p>
+</div>
+
+<div id=nadador>
+    <h1>Exercicio 20 - Categoria</h1>
+    <p>Digite a sua idade: <input type="number" id="id"/></p>
+    <p><button onclick="calcula20()"> Calcular</button></p>
+    <p id="mensagem20"></p>
+</div>
+
+<div id="produto">
+    <h1> Exercicio 21 - Procedência do Produto</h1>
+    <p>Informe o preço do seu produto: <input type="number" id="preco21"/></p>
+    <p>Informe o código de origem do seu produto: <input type="number" id="cod1"/></p>
+    <p><button onclick="calcula21()"> Calcular </button></p>
+    <p id="mensagem21"></p>
+</div>
+
+<div id="risco">
+<h1> Exercicio 22 - Grupo de Risco</h1>
+<p>Informe sua Idade: <input type="number" id="idade1"/></p>
+<p>Informe seu peso: <input type="number" id="peso"/></p>
+<p><button onclick="calcula22()"> Calcular </button></p>
+<p id="mensagem22"></p>
+</div>
+
+<div id="info">
+<h1> Exercicio 23 - Informações do Produto</h1>
+<p>Informe a quantidade de produtos no qual esta sendo comprado: <input type="number" id="quanti"/></p>
+<p>Informe o código do produto: <input type="number" id="codi"/></p>
+<p><button onclick="calcula23()"> Calcular </button></p>
+<p id="mensagem23"></p>
+</div>
+
+<div id="produto1">
+    <h1>Exercicio 24 - Info produtos</h1>
+    <p>Informe o valor do produto: <input type="number" id="val"/></p>
+    <p>Informe a categoria do produto:</p>
+    <p>1 - LIMPEZA</p>
+    <p>2 - ALIMENTAÇÃO <input type="number" id="categoria"/></p>
+    <p>3 - VESTUÁRIO</p>
+    <p>Necessita de Refrigeração ?</p>
+    <p>R - REFRIGERAÇÃO <input type="caracter" id="refri"/></p>
+    <p>N - NÃO NECESSITA</p>
+    <p><button onclick="calcula24()"> Calcular </button></p>
+    <p id="mensagem24"></p>
+    <p id="mensagem24_2"></p>
+    <p id="mensagem24_3"></p>
+    <p id="mensagem24_4"></p>
+</div>
+
+<div id="natal">
+<h1> Exercicio 25 - Bônus de Natal</h1>
+<p>Informe a quantidade de horas extras trabalhadas: <input type="number" id="horast"/></p>
+<p>Informe a quantidade de horas em que você faltou: <input type="number" id="horasf"/></p>
+<p><button onclick="calcula25()"> Calcular </button></p>
+<p id="mensagem25"></p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,214 @@
+@charset "utf-8";
+
+p {
+    font-size: 20px;
+    font-family: Papyrus;
+}
+h3 {
+     font-size: 20px;
+     font-family: Papyrus;
+ }
+h1 {
+    font-size: 30px;
+    font-family: Papyrus;
+}
+input, textarea{
+    background-color: rgba(255,255,255,.5);
+}
+input:hover, textarea:hover {
+    color: #ffffff;
+    background-color: black;
+}
+button{
+    font-size: 20px;
+    font-family: Papyrus;
+}
+#tudo {
+    background-color:#fff;
+    width: 900px; /*largura da caixa*/
+    margin: 0px auto 0px auto;
+    box-shadow: 0px 0px 25px;
+    padding: 10px;
+}
+#med{
+    margin-bottom: 1px;
+    border-bottom: double 2px #ff0011;
+    border-top: double 2px #ff0011;
+    background: url("_imagens/med1.png") no-repeat 95% 45%;
+    padding: 10px;
+}
+#med2{
+    margin-bottom: 1px;
+    border-bottom: double 2px #ff0011;
+    border-top: double 2px #ff0011;
+    background: url("_imagens/med1.png") no-repeat 95% 45%;
+    padding: 10px;
+}
+#nmenor{
+    margin-bottom: 1px;
+    border-bottom: double 2px #ff0011;
+    border-top: double 2px #ff0011;
+    background: url("_imagens/div.png") no-repeat 95% 100%;
+    padding: 10px;
+}
+#nmaior{
+    margin-bottom: 1px;
+    border-bottom: double 2px #ff0011;
+    border-top: double 2px #ff0011;
+    background: url("_imagens/medpon.png") no-repeat 95% 40%;
+    padding: 10px;
+}
+#oper{
+    margin-bottom: 1px;
+    border-bottom: double 2px #ff0011;
+    border-top: double 2px #ff0011;
+    background: url("_imagens/desc.png") no-repeat 95% 40%;
+    padding: 10px;
+}
+#oper2 {
+    margin-bottom: 1px;
+    border-bottom: double 2px #ff0011;
+    border-top: double 2px #ff0011;
+    background: url("_imagens/Sal.png") no-repeat 95% 40%;
+    padding: 10px;
+}
+#aumento {
+    margin-bottom: 1px;
+    border-bottom: double 2px #ff0011;
+    border-top: double 2px #ff0011;
+    background: url("_imagens/peso.png") no-repeat 95% 40%;
+    padding: 10px;
+}
+#reajuste {
+    margin-bottom: 1px;
+    border-bottom: double 2px #ff0011;
+    border-top: double 2px #ff0011;
+    background: url("_imagens/kg_g.png") no-repeat 95% 40%;
+    padding: 10px;
+}
+#cespecial {
+     margin-bottom: 1px;
+     border-bottom: double 2px #ff0011;
+     border-top: double 2px #ff0011;
+     background: url("_imagens/trap.png") no-repeat 95% 40%;
+     padding: 10px;
+ }
+#precocar {
+    margin-bottom: 1px;
+    border-bottom: double 2px #ff0011;
+    border-top: double 2px #ff0011;
+    background: url("_imagens/quad.png") no-repeat 95% 40%;
+    padding: 10px;
+}
+#nsalario {
+    margin-bottom: 1px;
+    border-bottom: double 2px #ff0011;
+    border-top: double 2px #ff0011;
+    background: url("_imagens/log.png") no-repeat 100% 40%;
+    padding: 10px;
+}
+#nsalario2 {
+    margin-bottom: 1px;
+    border-bottom: double 2px #ff0011;
+    border-top: double 2px #ff0011;
+    background: url("_imagens/Salmin.png") no-repeat 100% 40%;
+    padding: 10px;
+}
+#preçonovo {
+     margin-bottom: 1px;
+     border-bottom: double 2px #ff0011;
+     border-top: double 2px #ff0011;
+     background: url("_imagens/tab.png") no-repeat 100% 40%;
+     padding: 10px;
+ }
+#nsalario3 {
+    margin-bottom: 1px;
+    border-bottom: double 2px #ff0011;
+    border-top: double 2px #ff0011;
+    background: url("_imagens/idade.jpg") no-repeat 100% 40%;
+    padding: 10px;
+}
+#banco {
+    margin-bottom: 1px;
+    border-bottom: double 2px #ff0011;
+    border-top: double 2px #ff0011;
+    background: url("_imagens/temp.png") no-repeat 78% 40%;
+    padding: 10px;
+}
+#novopreco {
+    margin-bottom: 1px;
+    border-bottom: double 2px #ff0011;
+    border-top: double 2px #ff0011;
+    background: url("_imagens/temp.png") no-repeat 78% 40%;
+    padding: 10px;
+}
+#senha {
+    margin-bottom: 1px;
+    border-bottom: double 2px #ff0011;
+    border-top: double 2px #ff0011;
+    background: url("_imagens/temp.png") no-repeat 78% 40%;
+    padding: 10px;
+}
+#idade {
+    margin-bottom: 1px;
+    border-bottom: double 2px #ff0011;
+    border-top: double 2px #ff0011;
+    background: url("_imagens/temp.png") no-repeat 78% 40%;
+    padding: 10px;
+}
+#imcorp {
+    margin-bottom: 1px;
+    border-bottom: double 2px #ff0011;
+    border-top: double 2px #ff0011;
+    background: url("_imagens/temp.png") no-repeat 78% 40%;
+    padding: 10px;
+}
+#nadador {
+    margin-bottom: 1px;
+    border-bottom: double 2px #ff0011;
+    border-top: double 2px #ff0011;
+    background: url("_imagens/temp.png") no-repeat 78% 40%;
+    padding: 10px;
+}
+#produto {
+    margin-bottom: 1px;
+    border-bottom: double 2px #ff0011;
+    border-top: double 2px #ff0011;
+    background: url("_imagens/temp.png") no-repeat 78% 40%;
+    padding: 10px;
+}
+#risco {
+    margin-bottom: 1px;
+    border-bottom: double 2px #ff0011;
+    border-top: double 2px #ff0011;
+    background: url("_imagens/temp.png") no-repeat 78% 40%;
+    padding: 10px;
+}
+#produto {
+    margin-bottom: 1px;
+    border-bottom: double 2px #ff0011;
+    border-top: double 2px #ff0011;
+    background: url("_imagens/temp.png") no-repeat 78% 40%;
+    padding: 10px;
+}
+#info {
+    margin-bottom: 1px;
+    border-bottom: double 2px #ff0011;
+    border-top: double 2px #ff0011;
+    background: url("_imagens/temp.png") no-repeat 78% 40%;
+    padding: 10px;
+}
+#produto1 {
+    margin-bottom: 1px;
+    border-bottom: double 2px #ff0011;
+    border-top: double 2px #ff0011;
+    background: url("_imagens/temp.png") no-repeat 78% 40%;
+    padding: 10px;
+}
+#natal {
+    margin-bottom: 1px;
+    border-bottom: double 2px #ff0011;
+    border-top: double 2px #ff0011;
+    background: url("_imagens/temp.png") no-repeat 78% 40%;
+    padding: 10px;
+}
